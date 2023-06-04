@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-06-04T07:20:14.969Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.2.1" etag="9n-r631F9jf4j_yJ9sHj" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-04T07:28:49.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qil-7e3xT42TDwX01ZrQ" version="21.2.1" type="github">
   <diagram name="第 1 页" id="Zxne3HcXPv2P-k0LGQbM">
-    <mxGraphModel>
+    <mxGraphModel dx="883" dy="990" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p-xPuJ8liJmfj-L7uOXf-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="94" width="611" height="355" as="geometry" />
+        </mxCell>
+        <mxCell id="p-xPuJ8liJmfj-L7uOXf-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="166" y="203" width="124" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="p-xPuJ8liJmfj-L7uOXf-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457" y="209.5" width="174" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="p-xPuJ8liJmfj-L7uOXf-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457" y="240.5" width="174" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="p-xPuJ8liJmfj-L7uOXf-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457" y="271.5" width="174" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="p-xPuJ8liJmfj-L7uOXf-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457" y="302.5" width="174" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="p-xPuJ8liJmfj-L7uOXf-8" value="&lt;h1&gt;&lt;font face=&quot;等线&quot;&gt;会话&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="72" width="66" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="p-xPuJ8liJmfj-L7uOXf-11" value="&lt;h2&gt;&lt;font face=&quot;等线&quot;&gt;进程组&lt;/font&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="508" y="163" width="72" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p-xPuJ8liJmfj-L7uOXf-12" value="&lt;h2&gt;&lt;font face=&quot;等线&quot;&gt;bash+终端&lt;/font&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="176" y="153" width="105" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p-xPuJ8liJmfj-L7uOXf-13" value="&lt;h2&gt;&lt;font face=&quot;等线&quot;&gt;bash自成一个进程组，&lt;/font&gt;&lt;/h2&gt;&lt;h2&gt;&lt;font face=&quot;等线&quot;&gt;即会话&lt;/font&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="129" y="321" width="200" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="p-xPuJ8liJmfj-L7uOXf-14" value="&lt;font size=&quot;1&quot; face=&quot;等线&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;当会话关闭时，要提供后台服务的后台进程组应该作为一个整体自成一个会话，成为守护进程&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="443" y="373" width="224" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
