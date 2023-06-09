@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" modified="2023-04-29T10:43:28.006Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="py3SJcA1S0rV9nejp9Yf" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="erk0rEQZ4nIIyuvTtfjQ">
+    <mxGraphModel dx="800" dy="511" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="Uqn0EhTlNCAsa1b1u9sD-1" target="Uqn0EhTlNCAsa1b1u9sD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-1" value="sa_family&lt;br&gt;&lt;font face=&quot;Songti TC&quot;&gt;（地址族）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-2" value="sa_data[14] &lt;font face=&quot;Songti TC&quot;&gt;地址数据&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-3" value="sin_family&lt;br&gt;AF_INET" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-4" value="sin_port&lt;br&gt;&lt;font face=&quot;Songti TC&quot;&gt;端口号&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-5" value="sin_port&lt;br&gt;IP&lt;font face=&quot;Songti TC&quot;&gt;地址&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-6" value="&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Songti TC&quot;&gt;填充&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-7" value="sun_family&lt;br&gt;AF_INET" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="450" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-8" value="&lt;font face=&quot;Songti TC&quot;&gt;路径名&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="450" y="140" width="80" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-9" value="struct sockaddr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="105" y="70" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-10" value="struct sockaddr_in" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="255" y="70" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-11" value="struct sockaddr_un" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="415" y="70" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="110" y="100" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="100" as="sourcePoint" />
+            <mxPoint x="290" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="100" as="sourcePoint" />
+            <mxPoint x="450" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="140" as="sourcePoint" />
+            <mxPoint x="450" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-18" value="&lt;font face=&quot;Songti TC&quot;&gt;2字节(16bit)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-20" value="&lt;font face=&quot;Songti TC&quot;&gt;14字节&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-22" value="&lt;font face=&quot;Songti TC&quot;&gt;2字节&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="145" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-24" value="&lt;font face=&quot;Songti TC&quot;&gt;4字节&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="205" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-26" value="&lt;font face=&quot;Songti TC&quot;&gt;1字节&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="265" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="430" y="140" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-28" value="&lt;font face=&quot;Songti TC&quot;&gt;108字节&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-29" value="&lt;font face=&quot;Songti TC&quot;&gt;跨网络通信&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="291" y="49" width="78" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-30" value="&lt;font face=&quot;Songti TC&quot;&gt;本地通信&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="457" y="49" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqn0EhTlNCAsa1b1u9sD-31" value="&lt;font face=&quot;Songti TC&quot;&gt;通用结构&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="137" y="49" width="66" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
