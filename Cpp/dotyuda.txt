@@ -1,0 +1,1 @@
+dot tree2.dot | gvpr -c -f binarytree.gvpr | neato -n -Tpng -o tree2.png      
