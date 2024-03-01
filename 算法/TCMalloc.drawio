@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T11:15:58.811Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="N_oVev4zkJ4YYi0Dm3qx" version="23.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-01T01:57:24.047Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="fVCIg6ZKQwLYv1oTWI7I" version="23.1.8" type="github">
   <diagram name="第 1 页" id="vCILg_Ki7q9bG5vbGijk">
-    <mxGraphModel dx="1036" dy="366" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="870" dy="389" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,9 +102,6 @@
         <mxCell id="2ix9AT3Dd3sCo8_-2dsp-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="717" y="724" width="113" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-41" value="&lt;font size=&quot;1&quot; face=&quot;Lucida Console&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;FreeList&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="168" y="637" width="60" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="2ix9AT3Dd3sCo8_-2dsp-43" value="&lt;font size=&quot;1&quot; face=&quot;Lucida Console&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;NULL&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="914" y="675" width="60" height="40" as="geometry" />
         </mxCell>
@@ -136,6 +133,86 @@
         </mxCell>
         <mxCell id="2ix9AT3Dd3sCo8_-2dsp-61" value="&lt;font face=&quot;Lucida Console&quot;&gt;char *_memory_ptr&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;黑体&quot;&gt;内存起始地址&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="41" y="825" width="169" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="269" y="956" width="645" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-66" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.301;entryY=1.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="463.25000000000045" y="1065" as="sourcePoint" />
+            <mxPoint x="463.145" y="1016.6399999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-65" value="&lt;font face=&quot;Lucida Console&quot;&gt;char *_memory_ptr&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;黑体&quot;&gt;未被分配内存起始地址&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="421" y="1059" width="169" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-71" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="269" y="956" width="193" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-72" value="&lt;font face=&quot;黑体&quot;&gt;已被分配的小内存块&lt;br&gt;(未归还)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="272" y="1041" width="169" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-74" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="269" y="1126" width="645" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-76" value="&lt;font face=&quot;Lucida Console&quot;&gt;char *_memory_ptr&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;黑体&quot;&gt;未被分配内存起始地址&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="1227" width="169" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-77" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="269" y="1126" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-78" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="349" y="1126" width="113" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="2ix9AT3Dd3sCo8_-2dsp-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="462" y="1156" as="sourcePoint" />
+            <mxPoint x="693.9999999999998" y="1101" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="448" y="1156" />
+              <mxPoint x="448" y="1105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-79" value="&lt;font face=&quot;黑体&quot;&gt;被释放的小内存块&lt;br&gt;(已归还)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="378" y="1221" width="169" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-81" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="462" y="1126" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-82" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="542" y="1126" width="113" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ix9AT3Dd3sCo8_-2dsp-84" target="2ix9AT3Dd3sCo8_-2dsp-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-84" value="&lt;font face=&quot;Lucida Console&quot;&gt;void *_freeList_ptr&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;黑体&quot;&gt;自由链表起始地址&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="227" y="1247" width="169" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ix9AT3Dd3sCo8_-2dsp-77" target="2ix9AT3Dd3sCo8_-2dsp-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="1156" />
+              <mxPoint x="249" y="1106" />
+              <mxPoint x="427" y="1106" />
+              <mxPoint x="427" y="1171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-88" value="&lt;font face=&quot;黑体&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;NULL&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="705" y="1084" width="59.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-90" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.602;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2ix9AT3Dd3sCo8_-2dsp-76" target="2ix9AT3Dd3sCo8_-2dsp-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-91" value="&lt;font face=&quot;黑体&quot;&gt;头插&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1074" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-93" value="&lt;font size=&quot;1&quot; face=&quot;Lucida Console&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;FreeList&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1146" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2ix9AT3Dd3sCo8_-2dsp-94" value="&lt;font size=&quot;1&quot; face=&quot;Lucida Console&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;ObjectPool&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="964" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
