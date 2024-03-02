@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-02T02:38:36.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="B7_ptxKv4wrwiKhnEsCy" version="23.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-02T12:35:15.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-_QdaIgHIcwWXBVSp-Wo" version="23.1.8" type="github" pages="2">
   <diagram name="第 1 页" id="vCILg_Ki7q9bG5vbGijk">
-    <mxGraphModel dx="716" dy="364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="969" dy="364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -373,8 +373,8 @@
         <mxCell id="HaCrzgObacT1Gevzyp2y-50" value="256 KBytes" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fillColor=#dae8fc;strokeColor=#6c8ebf;direction=south;" vertex="1" parent="1">
           <mxGeometry x="275" y="1768" width="58" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HaCrzgObacT1Gevzyp2y-63" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;Hash Table&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 255); font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;SpanList&lt;/span&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&amp;nbsp;&lt;/font&gt;Array[]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="234" y="1806" width="134" height="42" as="geometry" />
+        <mxCell id="HaCrzgObacT1Gevzyp2y-63" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;Hash Table&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 255); font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;SpanList&lt;/span&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&amp;nbsp;_spanLists&lt;/font&gt;[]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="217" y="1806" width="170" height="42" as="geometry" />
         </mxCell>
         <mxCell id="HaCrzgObacT1Gevzyp2y-66" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;CentralCache&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="186" y="1467" width="167" height="36" as="geometry" />
