@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-08-11T08:23:22.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.4.14" etag="7rlPX9Bj-zK2BTvOWFoH" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-11T08:30:00.542Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="jze6P1ue4m1mK-7pkFdS" version="24.4.14" type="github">
   <diagram name="第 1 页" id="j-wl-FKzR9HE4pRb2R6m">
-    <mxGraphModel>
+    <mxGraphModel dx="868" dy="592" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zZmYLTJgfRJu2TQSpy6i-1" value="&lt;font&gt;假设有nums=[0, 2, 5, 9, 4, 6, 7, 1, 7, 2]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="163" y="97" width="299" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zZmYLTJgfRJu2TQSpy6i-2" value="&lt;div&gt;&lt;font&gt;f[0] = [0]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[1] = [0, 2]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[2] = [0, 2, 5]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[3] = [0, 2, 5, 9]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[4] = [0, 2, 4]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[5] = [0, 2, 4, 6]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[6] = [0, 2, 4, 6, 7]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[7] = [0, 1]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[8] = [0, 2, 4, 6, 7]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[9] = [0, 2]&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="195" y="170" width="299" height="161" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
