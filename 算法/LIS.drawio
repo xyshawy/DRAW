@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="j-wl-FKzR9HE4pRb2R6m">
-    <mxGraphModel dx="868" dy="592" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="504" dy="343" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,6 +24,51 @@
         </mxCell>
         <mxCell id="zZmYLTJgfRJu2TQSpy6i-9" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;f[0] = [0], 以0结尾的LIS长度为1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[2] = [0, 2]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[5] = [0, 2, 5]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[9] = [0, 2, 5, 9]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[4] = [0, 2, 4]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;f[6] = [0, 2, 4, 6]，&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;以6结尾的LIS长度为4&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;f[7] = [0, 2, 4, 6, 7]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;f[1] = [0, 1]，&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;以1结尾的LIS长度为2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;f[7] = [0, 2, 4, 6, 7]，&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;以7结尾的LIS长度为5&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;f[2] = [0, 1, 2]，&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;以2结尾的LIS长度为3&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="422" y="326" width="299" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-1" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-family: Ri8xbd_C4Ftpmw6WuF31; background-color: initial; font-size: 21px;&quot;&gt;A=&quot;youzan&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 21px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="258" y="501" width="138" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-2" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-family: Ri8xbd_C4Ftpmw6WuF31; background-color: initial; font-size: 21px;&quot;&gt;B=&quot;&lt;font color=&quot;#ff0000&quot;&gt;z&lt;/font&gt;anyou&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 21px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="414" y="501" width="137" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-3" value="j是B[0]在A倒序查找的第一个位置,用pos记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="559" width="253" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-4" value="j" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="331" y="487" width="21" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-5" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-family: Ri8xbd_C4Ftpmw6WuF31; background-color: initial; font-size: 21px;&quot;&gt;A=&quot;youzan&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 21px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="258" y="607" width="138" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-6" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-family: Ri8xbd_C4Ftpmw6WuF31; background-color: initial; font-size: 21px;&quot;&gt;B=&quot;zanyou&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 21px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="414" y="607" width="136" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-7" value="j" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="331" y="593" width="21" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-8" value="开始找A和B的公共前/后缀" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="331" y="652" width="157" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-9" value="i" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="446" y="593" width="21" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-10" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-family: Ri8xbd_C4Ftpmw6WuF31; background-color: initial; font-size: 21px;&quot;&gt;A=&quot;you&lt;font color=&quot;#ff0000&quot;&gt;zan&lt;/font&gt;&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 21px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="259" y="683" width="138" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-11" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;span style=&quot;font-family: Ri8xbd_C4Ftpmw6WuF31; background-color: initial; font-size: 21px;&quot;&gt;B=&quot;&lt;font color=&quot;#ff0000&quot;&gt;zan&lt;/font&gt;you&quot;&lt;/span&gt;&lt;br style=&quot;font-size: 21px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="415" y="683" width="137" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-12" value="j" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="669" width="21" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-13" value="i" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="471.5" y="669" width="21" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-14" value="pos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="323" y="708" width="37" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qX7O51-pDwi4d86egaH2-15" value="&lt;div&gt;如果j不能走到A的末尾，那么不能旋转&lt;/div&gt;如果A子串[0,pos]和B子串[m-i+1]相等则说明可以旋转" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="247" y="736" width="299" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
