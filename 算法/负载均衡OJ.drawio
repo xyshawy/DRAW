@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="ayVR1PQf7--7npwxL2th">
-    <mxGraphModel dx="719" dy="479" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="487" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,27 @@
         </mxCell>
         <mxCell id="eK0BLzWJIJVIbG0A-rcE-5" value="网&lt;div&gt;络&lt;/div&gt;&lt;div&gt;服&lt;/div&gt;&lt;div&gt;务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="120" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eK0BLzWJIJVIbG0A-rcE-6" value="oj_view.hpp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="401" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eK0BLzWJIJVIbG0A-rcE-7" value="前端网页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="441" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eK0BLzWJIJVIbG0A-rcE-8" value="编译运行&lt;div&gt;服务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="168" y="441" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eK0BLzWJIJVIbG0A-rcE-9" value="oj_model.hpp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="361" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eK0BLzWJIJVIbG0A-rcE-11" value="负载均衡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="168" y="401" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eK0BLzWJIJVIbG0A-rcE-12" value="oj_server.cc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="281" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eK0BLzWJIJVIbG0A-rcE-13" value="oj_control.hpp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="321" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
