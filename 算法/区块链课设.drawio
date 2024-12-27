@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="52DwuSt1lLLi5HtNywio">
-    <mxGraphModel dx="1430" dy="813" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="719" dy="628" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -274,7 +274,7 @@
         <mxCell id="10daeMJfv2n5kkDmHX4X-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="10daeMJfv2n5kkDmHX4X-109" target="10daeMJfv2n5kkDmHX4X-115" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="10daeMJfv2n5kkDmHX4X-109" value="新增学生信息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="10daeMJfv2n5kkDmHX4X-109" value="新增证书信息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="429" y="1979" width="66" height="53" as="geometry" />
         </mxCell>
         <mxCell id="10daeMJfv2n5kkDmHX4X-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="10daeMJfv2n5kkDmHX4X-111" target="10daeMJfv2n5kkDmHX4X-127" parent="1">
@@ -286,7 +286,7 @@
         <mxCell id="10daeMJfv2n5kkDmHX4X-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="10daeMJfv2n5kkDmHX4X-113" target="10daeMJfv2n5kkDmHX4X-117" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="10daeMJfv2n5kkDmHX4X-113" value="查询学生信息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="10daeMJfv2n5kkDmHX4X-113" value="查询证书信息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="288.5" y="1979" width="67" height="53" as="geometry" />
         </mxCell>
         <mxCell id="10daeMJfv2n5kkDmHX4X-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="10daeMJfv2n5kkDmHX4X-115" target="10daeMJfv2n5kkDmHX4X-132" parent="1">
@@ -304,13 +304,13 @@
         <mxCell id="10daeMJfv2n5kkDmHX4X-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="10daeMJfv2n5kkDmHX4X-119" target="10daeMJfv2n5kkDmHX4X-129" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="10daeMJfv2n5kkDmHX4X-119" value="删除学生信息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="10daeMJfv2n5kkDmHX4X-119" value="删除证书信息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="642.5" y="1979" width="67" height="53" as="geometry" />
         </mxCell>
         <mxCell id="10daeMJfv2n5kkDmHX4X-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="10daeMJfv2n5kkDmHX4X-121" target="10daeMJfv2n5kkDmHX4X-123" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="10daeMJfv2n5kkDmHX4X-121" value="修改学生信息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="10daeMJfv2n5kkDmHX4X-121" value="修改证书信息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="787.5" y="1979" width="67" height="53" as="geometry" />
         </mxCell>
         <mxCell id="10daeMJfv2n5kkDmHX4X-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="10daeMJfv2n5kkDmHX4X-123" target="10daeMJfv2n5kkDmHX4X-132" parent="1">
