@@ -1,9 +1,96 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="4Tlkrzrl2eSxHGA9nsDM">
-    <mxGraphModel>
+    <mxGraphModel dx="1688" dy="952" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-412" y="-190" width="392" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-1" value="参考项目架构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-428" y="-224" width="106" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j48AXpBPXFqkCsc0e9pB-3" target="j48AXpBPXFqkCsc0e9pB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-3" value="加载策略脚本（回调函数）和未平仓订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="-185" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j48AXpBPXFqkCsc0e9pB-4" target="j48AXpBPXFqkCsc0e9pB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-4" value="加载市场数据（K线图等）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="-92" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-5" value="" style="endArrow=blockThin;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;dashed=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-96" y="-146" as="sourcePoint" />
+            <mxPoint x="-166" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j48AXpBPXFqkCsc0e9pB-7" target="j48AXpBPXFqkCsc0e9pB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-7" value="将数据作为参数，通过策略中的回调函数获得交易信号（标识符），决定交易行为" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="1" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-10" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=2;shape=mxgraph.lean_mapping.physical_pull;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-402" y="29" width="47" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-12" value="不足（按照本项目的需求）：&lt;div&gt;1. 程序只支持单一策略。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;原因：策略的逻辑和参数绑定在脚本中，在启动前后是固定的&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;预设方案：本项目的“订单”中包含了策略的一系列参数，因此可以将策略参数和对应代币的市场数据（社媒+链上）作为参数传递给策略脚本，脚本按照预设逻辑产生对应的交易信号。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 不支持多个订单（即多个策略）操作同一代币（原型系统也存在该问题）&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;原因：为了避免因计算精度和手续费造成的金额误差而导致交易失败等问题，原型系统通过查询该账户的代币余额作为真实的余额。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;预设方案：为【用户id+策略id】设立一个独立的账户&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-371" y="117" width="428" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-13" value="交易系统（独立）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12" y="1" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-15" value="" style="endArrow=blockThin;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;dashed=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109" y="-4" as="sourcePoint" />
+            <mxPoint x="-75" y="-144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-18" value="&lt;div&gt;更新数据库&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="-88" width="83" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-412" y="351" width="392" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-20" value="改进本项目的交易中心架构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-428" y="317" width="106" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j48AXpBPXFqkCsc0e9pB-22" target="j48AXpBPXFqkCsc0e9pB-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-22" value="加载未平仓订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="356" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j48AXpBPXFqkCsc0e9pB-24" target="j48AXpBPXFqkCsc0e9pB-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-24" value="加载市场数据（社媒+链上）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="449" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j48AXpBPXFqkCsc0e9pB-27" target="j48AXpBPXFqkCsc0e9pB-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-27" value="将数据作为参数，通过策略中的回调函数获得交易信号（标识符），决定交易行为" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-286" y="542" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-28" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=2;shape=mxgraph.lean_mapping.physical_pull;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-402" y="570" width="47" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-29" value="交易系统（独立）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12" y="542" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-30" value="" style="endArrow=blockThin;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;dashed=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109" y="537" as="sourcePoint" />
+            <mxPoint x="-75" y="397" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j48AXpBPXFqkCsc0e9pB-31" value="&lt;div&gt;更新数据库&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="453" width="83" height="29" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
